@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script defer src="script.js"></script>
+    <title>Card Pessoal</title>
+  </head>
+  <body>
+    <section id="overlay" onclick="fecharModal()">
+        <div class="minhas-redes" onclick="event.stopPropagation()">
+            <h3>Minhas Redes</h3>
+            <div class="redes-grid">
+              <a href="https://github.com/ranieryfialho" target="_blank" class="rede-card github">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="https://linkedin.com/in/ranieryfialho" target="_blank" class="rede-card linkedin">
+                <i class="fab fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://instagram.com/ranieryfialho target="_blank" class="rede-card instagram">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+      <img
+        src="img/20250509_2036_Pixelart de Personagem_remix_01jtvpetx5e1kbza01vyv4vgrc.png"
+        alt="Foto-Perfil"
+        class="perfil"
+      />
+      <h2>Raniery Fialho</h2>
+      <p>Web Developer</p>
+      <button class="seguir" onclick="abrirModal()">Links</button>
+    </div>
+  </body>
+</html>
